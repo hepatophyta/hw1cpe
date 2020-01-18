@@ -1,0 +1,113 @@
+@font-face {
+
+  src: url(/fonts/Lato-Hairline.ttf);
+  font-family: lato;
+}
+
+
+@font-face {
+  src: url();
+  font-family: cloud;
+
+}
+
+@font-face {
+  src: url(/fonts/Cloud-Light.otf.otf);
+  font-family: cloud;
+
+}
+
+@font-face {
+
+  src: url(/fonts/BodoniFLF-Roman.ttf);
+  font-family: bodoni;
+}
+
+body {
+    
+   background-image: url(/CV/bg.png);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+ }
+
+ 
+
+ h1 {
+   
+   font-family: lato;
+   font-size: 12px;
+ }
+
+ h2 {
+   font-family: bodoni;
+   font-size: 70px;
+   color: aliceblue;
+   margin-top: 6.5rem;
+   margin-left: 5rem;
+ }
+ h3 {
+   margin-left: 6rem;
+   margin-top: -3rem;
+   font-family: cloud;
+   font-size: 24px;
+   color: aliceblue;
+ }
+
+ h4 {
+   margin-left: 7rem;
+   font-family: cloud;
+   font-size: 20px;
+   color: aliceblue;
+ }
+
+ input[type=text] {
+  border-radius: 4px;
+   margin-top: 1.5rem;
+   margin-left: 0.5rem;
+   background-color: rgb(64, 64, 85);
+   height: 1.75rem;
+   width: 15rem;
+   color: white;
+   font-family: cloud;
+   font-size: 16px;
+  border: none;
+  /* border-bottom: 3px solid rgb(64, 64, 85); */
+}
+
+textarea {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  font-family: cloud;
+  color: rgb(255, 255, 255);
+  width: 40rem;
+  height: 5rem;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border:2px ;
+  border-radius: 4px;
+  background-color: rgb(64, 64, 85);
+  resize: none;
+}
+
+select {
+  border-radius: 4px;
+  font-size: 12px;
+  font-family: cloud;
+  color: aliceblue;
+  margin: 0.75rem 0rem 0rem 1rem;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(64, 64, 85);
+}
+
+a {
+   
+  color: rgb(255, 255, 255);
+  font-family: cloud;
+  font-size: 16px;
+  line-height: 0.01rem;
+}
+
+
